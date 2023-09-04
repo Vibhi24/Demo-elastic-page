@@ -1,0 +1,53 @@
+.blue_bg{
+    background-color: #101c3f;
+}
+.card{
+    padding: 0rem 1rem;
+}
+
+.card-header{
+    border: none;
+}
+
+.dropdown_bg_cont{
+    width: 1050px; 
+    height: 475px;
+}
+.sections{
+    /* background-color:var(--bs-card-cap-bg); */
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 2rem; */
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+}
+.section1{
+    display: flex;
+
+}
+.card{
+    border: none;
+    padding: 1rem;
+}
+.para{
+    font-size: large;
+}
+.elk_links{
+    list-style: none;
+    padding-left: 0;
+}
+
+.link{
+    padding: 0.4rem 0;
+}
+.dd_link{
+    text-decoration: none;
+    font-size: large;
+}
+
+.tertiary_btn{
+    color: rgb(13, 110, 253);
+    font-size: large;
+}

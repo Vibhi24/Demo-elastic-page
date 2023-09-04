@@ -1,0 +1,16 @@
+/* {} */
+.elasticbanner{
+    color: black;
+    margin-top: 8rem;
+    height: 250%;
+    margin-bottom: 20rem;
+}
+.video{
+    height: 250%;
+    width: 100%;
+}
+.elasticlink{
+    text-decoration: none;
+    font-size: large;
+    margin-top: 0.5rem;
+}

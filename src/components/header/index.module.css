@@ -1,0 +1,47 @@
+
+.card{
+    padding: 0rem 1rem;
+}
+
+.card-header{
+    border: none;
+}
+
+.section{
+    display: flex;
+    justify-content: space-around;
+}
+.section1{
+    display: flex;
+    padding: 1rem;
+}
+.nav_col{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    border: none;
+    padding: 1rem;
+}
+.subitem_content p{
+    font-size: large;
+}
+.subitem_content ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.subitem_content ul li{
+    padding: 0.4rem 0;
+}
+.subitem_content ul li a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.tertiary_btn{
+    color: rgb(13, 110, 253);
+    font-size: larger;
+    font-weight: 500;
+}

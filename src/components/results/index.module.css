@@ -1,0 +1,81 @@
+.resultscont{
+    color: black;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #f5f7fa;
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+}
+.titlewrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titlewrapper h2{
+    font-size: 4rem;
+    font-weight: 350;
+}
+.reswrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+.faster{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title .statistics{
+    color: #20377D;
+    font-size: 140px;
+    line-height: 130%;
+}
+.percent{
+    color: #20377D;
+    font-size: 60px;
+    position: absolute;
+    margin-top: 1.5rem;
+}
+.banner{
+    color: black;
+    background-color: white;
+    border-radius: 2rem;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    border: 1px solid var(--color-gray);
+    background: var(--color-white);
+    padding: 48px 24px;
+}
+.description h4{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.buttons .btnsecondary{
+    background-color: transparent;
+    color: #07c;
+    font-weight: 500;
+    font-size: large;
+    border: 2px solid #07c;
+    padding: 10px 23px;
+    border-radius: 5px;
+}
+.buttons .btntertiary{
+    background-color: transparent;
+    color: #07c;
+    font-weight: 500;
+    font-size: large;
+    padding-left: 30px;
+}
