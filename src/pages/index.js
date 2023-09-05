@@ -61,10 +61,6 @@ export default function Home() {
             </div>
             <div className='row'>
               <div className='col-12'>
-                <div className={`${styles.patterncontainer}`}>
-                  <div className={`${styles.leftpattern}`}></div>
-                  <div className={`${styles.rightpattern}`}></div>
-                </div>
                 <div className={`${styles.image}`}>
                   <img src='https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt343417cc4bf97e0b/64ce77bb148a0b760a0c9d0d/home_hero--optimized.png' className={`${styles.mainimage}`} />
                 </div>

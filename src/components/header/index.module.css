@@ -1,4 +1,14 @@
-
+.nav_head{
+    padding: 1rem;
+    font-size: larger;
+    background-color: #101c3f;
+}
+.nav_head a{
+    color: white;
+}
+.nav_head a:hover{
+    color: rgb(13, 110, 253);
+}
 .card{
     padding: 0rem 1rem;
 }
@@ -38,6 +48,7 @@
     text-decoration: none;
     font-size: larger;
     font-weight: 500;
+    color: rgb(13, 110, 253);
 }
 
 .tertiary_btn{

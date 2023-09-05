@@ -39,7 +39,7 @@ const Header = () => {
 
 
   return (
-    <div>
+    <div className={`${styles.nav_head}`}>
       <Navbar expand="lg">
         <Container>
           <Navbar.Brand href="#">{header.title}</Navbar.Brand>
@@ -49,7 +49,7 @@ const Header = () => {
               {header && header.primary_menu_item && header.primary_menu_item.map((item) => {
                 return (
                   <>
-                    <NavDropdown title={item.label} id="basic-nav-dropdown">
+                    <NavDropdown className={`${styles.nav_dd}`} title={item.label} id="basic-nav-dropdown">
                       <div className={`${styles.dropdown_bg_cont}`}>
                         <div className={`${styles.sections}`}>
                           <div className={`${styles.section1}`}>

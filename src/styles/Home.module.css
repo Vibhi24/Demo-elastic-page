@@ -46,28 +46,6 @@ color: white;
   font-size: large;
   font-weight: 600;
 }
-.patterncontainer{
-z-index: 0;
-position: absolute;
-width: 1200px;
-left: 0;
-right: 0;
-margin: 0 auto;
-}
-.leftpattern{
-background: no-repeat url('https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt058a8f7113164d01/64dbb61…/hero-pattern-left.svg');
-background-size: 100%;
-width: 600px;
-height: 755px;
-position: absolute;
-}
-.righttpattern{
-  background: no-repeat url('https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt2e4debc8effbb13a/64dbb62…/hero-pattern-right.svg');
-  background-size: 100%;
-  width: 600px;
-  height: 755px;
-  position: absolute;
-  }
 
   .image{
   position: relative;
@@ -116,13 +94,30 @@ font-weight: inherit;
   margin-top: revert;
   }
 
-  @media (min-width: 992px){
- .patterncontainer .rightpattern {
-    display: block;
-    right: -17%;
+  @media screen and (min-width: 821px) and (max-width: 1024px){
+    .maincontent h1{
+      font-size: 2rem;
+    }
+.maincontent .btns{
+  margin-left: 2rem;
+}}
+@media screen and (min-width: 1024px) and (max-width: 1100px){
+  .maincontent h1{
+    font-size: 3rem;
+  }
+  .maincontent .btns{
+    margin-left: 7rem;
+  }
+  }
+  @media screen and (max-width: 820px){
+.maincontent h1{
+  font-size: 2rem;
 }
-.patterncontainer .rightpattern {
-  display: block;
-  left: -22%;
+.maincontent p{
+  font-size: 1rem;
+}
+.maincontent .btns{
+  margin-left: 2rem;
+  width: max-content;
 }
 }

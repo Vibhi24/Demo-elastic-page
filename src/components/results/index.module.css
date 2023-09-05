@@ -79,3 +79,38 @@
     font-size: large;
     padding-left: 30px;
 }
+
+
+@media screen and (max-width: 768px){
+    .resultscont{
+        text-align: center;
+    }
+    .reswrapper{
+        flex-direction: column;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .buttons{
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .faster{
+padding-right: 0.5rem;
+    }
+    .statistics{
+        font-size: 7rem;
+    }
+    .faster p{
+        text-align: center;
+    }
+    .reduction{
+        padding-left: 1rem;
+    }
+    .reduction p{
+        text-align: center;
+    }
+
+}
