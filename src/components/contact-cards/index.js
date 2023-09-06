@@ -1,18 +1,20 @@
 import React, {useState, useEffect} from 'react';
 import Contentstack from 'contentstack';
 import styles from './index.module.css';
+import { api, delivery_key, environment } from '../../../config/helper';
 
 <script src="https://cdn.jsdelivr.net/npm/contentstack@latest/dist/web/contentstack.min.js"></script>
 
-const API_KEY = 'blt2260b25d78f02c35';
-const DELIVERY_TOKEN = 'cs58fb72625764c334e0fd165d'
+const API_KEY = api;
+const DELIVERY_TOKEN = delivery_key;
+const ENVIRONMENT = environment;
 const CONTENT_TYPE = 'contact'
 
 const ContactCard = () => {
 
     const [contact, setContact] = useState([])
 
-  const Stack = Contentstack.Stack({ "api_key": API_KEY, "delivery_token": DELIVERY_TOKEN, "environment": "development" });
+  const Stack = Contentstack.Stack({ "api_key": API_KEY, "delivery_token": DELIVERY_TOKEN, "environment": ENVIRONMENT });
   const Query = Stack.ContentType(CONTENT_TYPE).Query();
 
   const getContent = async () => {
