@@ -9,16 +9,10 @@ import Footer from '@/components/footer'
 import TabComponent from '@/components/tab-component'
 import Header from '@/components/header'
 import Contentstack from 'contentstack';
-import dotenv from 'dotenv'
-import Script from 'next/script'
 import { api, delivery_key, environment } from '../../config/helper'
 
 {/* <script src="https://cdn.jsdelivr.net/npm/contentstack@latest/dist/web/contentstack.min.js"></script> */}
-{/* <Script src="https://cdn.jsdelivr.net/npm/contentstack@latest/dist/web/contentstack.min.js"></Script> */}
-// dotenv.config();
-// const API_KEY = process.env.API_KEY;
-// const DELIVERY_TOKEN = process.env.DELIVERY_TOKEN;
-// const ENVIRONMENT = process.env.ENVIRONMENT;
+
 const CONTENT_TYPE = 'home_page';
 
 const API_KEY = api
