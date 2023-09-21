@@ -13,7 +13,6 @@ const Contact = () => {
         <FormComp />
         <ContactCard />
     </div>
-    <Footer />
     </>
   )
 }

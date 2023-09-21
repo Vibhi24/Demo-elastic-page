@@ -1,6 +1,6 @@
 import styles from './index.module.css'
 
-const FooterCTA = () => {
+const FooterTop = () => {
   return (
     <div className={`${styles.footercta}`}>
         <div className={`d-none d-md-block ${styles.patterns}`}>
@@ -29,4 +29,4 @@ const FooterCTA = () => {
   )
 }
 
-export default FooterCTA
+export default FooterTop

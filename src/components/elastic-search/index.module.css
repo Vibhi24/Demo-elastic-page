@@ -1,15 +1,38 @@
 /* {} */
-.elasticbanner{
+
+.seecs {
+    text-decoration: none;
+    font-size: large;
+    margin-top: 1rem;
+}
+
+.elasticsearch {
+    color: black;
+    margin-top: 8rem;
+}
+
+.elasticsearch .estitle {
+    font-size: xxx-large;
+    font-weight: inherit;
+}
+
+.elasticsearch .esdesc {
+    margin-top: revert;
+}
+
+.elasticbanner {
     color: black;
     margin-top: 8rem;
     height: 250%;
     margin-bottom: 20rem;
 }
-.video{
+
+.video {
     height: 250%;
     width: 100%;
 }
-.elasticlink{
+
+.elasticlink {
     text-decoration: none;
     font-size: large;
     margin-top: 0.5rem;

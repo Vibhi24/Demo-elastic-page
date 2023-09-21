@@ -4,6 +4,18 @@ import styles from './index.module.css'
 const ElasticBanner = () => {
   return (
     <>
+      <div className={`container ${styles.elasticsearch}`}>
+          <div className='row'>
+            <div className={`col-md-8 offset-md-2 text-center ${styles.titlesection}`}>
+              <h2 className={`${styles.estitle}`}>Three solutions built on Elasticsearch </h2>
+              <p className={`${styles.esdesc}`}>Get relevant results at unprecedented speed with open and flexible enterprise solutions — powered by Elasticsearch Platform and AI. You can… Minimize downtime. Accelerate root cause analysis. Respond to threats at scale.</p>
+              <div className='align-items-center justify-content-center text-center d-flex flex-column'>
+                <a href='https://www.elastic.co/customers/?elektra=home&storm=logo-bar' className={`${styles.seecs}`}>Explore Elasticsearch Platform →</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      
       <div className={`container ${styles.elasticbanner}`}>
         <div className='row d-flex justify-content-between'>
           <div className='content col-12 col-md-5 col-sm-6 align-self-center position-relative textContainer'>

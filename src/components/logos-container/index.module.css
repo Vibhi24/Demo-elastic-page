@@ -1,0 +1,47 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:2rem;
+  }
+  .content .row{
+    width: inherit;
+  }
+.image{
+    position: relative;
+    z-index: 1;
+    margin-top: 5rem;
+  }
+  .mainimage{
+    width: 100%;
+    max-width: 960px;
+  }
+  
+  /* .logocontainer{
+  position: relative;
+  z-index: 1;
+  } */
+  .logocontainer h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+  }
+  
+  .logocontainer .logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 130%;
+    margin-left: -6rem;
+  }
+  .logos .logo{
+    flex: 0 0 20%;
+      max-width: 28%;
+      padding: 1rem 2rem;
+  }
+  .seecs{
+    text-decoration: none;
+    font-size: large;
+    margin-top: 1rem;
+  }

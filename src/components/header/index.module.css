@@ -9,17 +9,21 @@
 .nav_head a:hover{
     color: rgb(13, 110, 253);
 }
-.card{
-    padding: 0rem 1rem;
+.card_pm{
+    width: 20rem;
+    border: none;
 }
 
 .card-header{
     border: none;
+    background-color: rgba(33, 37, 41, 0.03);
+    padding-top: 1rem;
 }
 
-.section{
+.sections{
     display: flex;
     justify-content: space-around;
+    padding: 1rem;
 }
 .section1{
     display: flex;
@@ -50,7 +54,14 @@
     font-weight: 500;
     color: rgb(13, 110, 253);
 }
-
+.card_body{
+    border: none;
+    background-color: rgba(33, 37, 41, 0.03);
+}
+.card_footer{
+    border: none;
+    background-color: rgba(33, 37, 41, 0.03);
+}
 .tertiary_btn{
     color: rgb(13, 110, 253);
     font-size: larger;
