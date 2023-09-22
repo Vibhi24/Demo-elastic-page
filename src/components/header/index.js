@@ -36,7 +36,7 @@ const Header = () => {
     <div className={`${styles.nav_head}`}>
       <Navbar expand="lg">
         <Container>
-          <Navbar.Brand href="#">{header.title}</Navbar.Brand>
+          {header && header.logo && header.logo.url ? <Navbar.Brand href="#"><img className={`${styles.elastic_logo}`} src={header.logo.url} /></Navbar.Brand> : <Navbar.Brand href="#">{header.title}</Navbar.Brand> }
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               {header && header.primary_menu_item && header.primary_menu_item.length > 0 && header.primary_menu_item.map((item) => {

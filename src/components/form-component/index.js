@@ -19,12 +19,12 @@ const FormComp = () => {
 
     const getContent = async () => {
         Query
-            .where("title")
+            .where("url", '/contact')
             .includeCount()
             .toJSON()
             .find()
             .then(function success(result) {
-                setContact(result[0][0].page_components[0].section_with_html_code)
+                setContact(result[0][0].form_section)
 
             },
                 function error(err) {
@@ -38,8 +38,8 @@ const FormComp = () => {
         <div className={`${styles.form_comp}`}>
             <div className='container'>
                 <div className={`row justify-content-center ${styles.sections}`}>
-                    <div className={`col-md-5 col-lg-4 m-t-standard ${styles.section1}`} dangerouslySetInnerHTML={{ __html: contact.description }}></div>
-                    <div className={`col-sm-8 col-md-5 col-lg-4 offset-lg-1 ${styles.section2}`} dangerouslySetInnerHTML={{__html: contact.form}}></div>
+                    {contact && contact.description ? <div className={`col-md-5 col-lg-4 m-t-standard ${styles.section1}`} dangerouslySetInnerHTML={{ __html: contact.description }}></div> : ''}
+                    {contact && contact.form ? <div className={`col-sm-8 col-md-5 col-lg-4 offset-lg-1 ${styles.section2}`} dangerouslySetInnerHTML={{__html: contact.form}}></div> : ''}
                 </div>
             </div>
         </div>
