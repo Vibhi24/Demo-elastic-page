@@ -1,21 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import styles from './index.module.css'
 import Contentstack from 'contentstack';
-import { api, delivery_key, environment } from '../../../config/helper';
+import { Stack } from '../../../config/helper';
 
 <script src="https://cdn.jsdelivr.net/npm/contentstack@latest/dist/web/contentstack.min.js"></script>
-
-const API_KEY = api;
-const DELIVERY_TOKEN = delivery_key;
-const ENVIRONMENT = environment;
-const CONTENT_TYPE = 'contact'
 
 const FormComp = () => {
 
     const [contact, setContact] = useState([])
 
-    const Stack = Contentstack.Stack({ "api_key": API_KEY, "delivery_token": DELIVERY_TOKEN, "environment": ENVIRONMENT });
-    const Query = Stack.ContentType(CONTENT_TYPE).Query();
+    const Query = Stack.ContentType('contact').Query();
 
     const getContent = async () => {
         Query
@@ -28,6 +22,7 @@ const FormComp = () => {
 
             },
                 function error(err) {
+                    return null
                 });
     }
     useEffect(() => {
